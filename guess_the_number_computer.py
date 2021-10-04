@@ -9,7 +9,7 @@ def computer_guess(x):
         guess = random.randint(a, b)
         if guess == x:
             print(f'I (the computer) have guessed the number correctly! The correct number was: {guess}')
-
+    teszt
         print(f'My guess is {guess}, is it correct ? If it is lower than the number that you enter, write /lower/, '
               f'if higher then write /higher/')
         user_input = input('Answer: ')
