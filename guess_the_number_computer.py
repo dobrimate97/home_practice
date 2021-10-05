@@ -2,22 +2,20 @@ import random
 
 
 def computer_guess(x):
-    guess = 0
-    a = int(input('Please enter the minimum range: '))
-    b = int(input('Please enter the maximum range: '))
-    while guess != x:
-        guess = random.randint(a, b)
-        if guess == x:
-            print(f'I (the computer) have guessed the number correctly! The correct number was: {guess}')
-    teszt
-        print(f'My guess is {guess}, is it correct ? If it is lower than the number that you enter, write /lower/, '
-              f'if higher then write /higher/')
-        user_input = input('Answer: ')
-        if user_input != 'higher':
-            guess = random.randint(a+1, b)
-        elif user_input != 'lower':
-            guess = random.randint(a, b-1)
-    print(f'I (the computer) have guessed the number correctly! The correct number was: {guess}')
+    low = int(input('Minimum range:'))
+    high = int(input('Maximum range:'))
+    feedback = ''
+    while feedback != 'c':
+        if low != high:
+            guess = random.randint(low, high)
+        else:
+            guess = low
+        feedback = input(f'Is {guess} too high (H), too low (L), or correct (C) ? ').lower()
+        if feedback == 'h':
+            high = guess - 1
+        elif feedback == 'l':
+            low = guess + 1
+    print(f'The computer guessed your number ({guess}) correctly!')
 
 
-computer_guess(10)
+computer_guess(20)
