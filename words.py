@@ -7,7 +7,7 @@ words = ["aback", "abaft", "abandoned", "abashed", "aberrant", "abhorrent", "abi
          "afford", "afraid", "aftermath", "afternoon", "afterthought", "aggressive", "agonizing", "agree", "agreeable",
          "agreement", "ahead", "air", "airplane", "airport", "ajar", "alarm", "alcoholic", "alert", "alike", "alive",
          "alleged", "allow", "alluring", "aloof", "amazing", "ambiguous", "ambitious", "amount", "amuck", "amuse",
-         "amused", "amusement", "amusing",f "analyze", "ancient", "anger", "angle", "angry", "animal", "animated",
+         "amused", "amusement", "amusing", "analyze", "ancient", "anger", "angle", "angry", "animal", "animated",
          "announce", "annoy", "annoyed", "annoying", "answer", "ants", "anxious", "apathetic", "apologise", "apparatus",
          "apparel", "appear", "applaud", "appliance", "appreciate", "approval", "approve", "aquatic", "arch", "argue",
          "argument", "arithmetic", "arm", "army", "aromatic", "arrange", "arrest", "arrive", "arrogant", "art",
